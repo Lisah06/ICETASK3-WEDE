@@ -1,0 +1,113 @@
+:root {
+    --avengers-blue: #1B3C69;
+    --avengers-gold: #FFD700;
+    --stark-red: #B22222;
+    --thanos-purple: #6B2E8C;
+    --background-dark: #1A1A1A;
+}
+
+/* Global Styles */
+body {
+ background-color: #2b0000; /* dark red background */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    background-color: var(--avengers-blue);
+     padding: 20px;
+    border-radius: 5px;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+li a {
+    color: var(--avengers-gold);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+li a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+/* Headings */
+h1 {
+    color: var(--avengers-gold);
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: var(--stark-red);
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--avengers-blue);
+    border-radius: 10px;
+}
+
+label {
+    color: var(--avengers-gold);
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    border: 2px solid var(--avengers-gold);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+    background-color: var(--stark-red);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+     border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: var(--thanos-purple);
+    transition: 0.3s;
+}
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 3px solid var(--avengers-gold);
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--avengers-blue);
+}
+
+/* Synopsis and Cast Info */
+h4 {
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: rgba(27, 60, 105, 0.7);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
